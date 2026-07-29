@@ -1,4 +1,5 @@
 'use client';
+import'./dashboard.css';
 import{useEffect,useMemo,useState}from'react';
 const starterReviews=[{id:1,customer:'Sarah M.',rating:5,text:'Brilliant haircut and such a friendly team. I felt completely looked after.',status:'new',reply:''},{id:2,customer:'James T.',rating:2,text:'My appointment started late and nobody explained what was happening.',status:'new',reply:''},{id:3,customer:'Priya K.',rating:4,text:'Lovely service and a great result. The booking process could be clearer.',status:'replied',reply:'Thank you, Priya. We’re really pleased you enjoyed the service and the result. We also appreciate your feedback about the booking process and will keep working to make it clearer.'}];
 const defaultVoice={tone:'friendly',description:'Warm, human and helpful. Thank customers sincerely, acknowledge criticism calmly and avoid sounding scripted.',signoff:'The ReplyRocket team'};
